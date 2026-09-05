@@ -1,0 +1,40 @@
+project:
+  name: DiffSinger_Multilang_Training
+  run_id_prefix: multilang
+
+training:
+  max_steps: 5000
+  save_interval: 500
+  resume: true
+  dry_run: false
+
+session:
+  max_minutes: 0
+
+data:
+  roots: []
+  manifest: data/unified_manifest.jsonl
+  report_dir: outputs/reports
+
+model:
+  name: cjke
+  root: ""
+  phonemes: ""
+  languages: ""
+  config: ""
+
+trainer:
+  # Replace with the actual DiffSinger trainer command for the selected engine.
+  command: []
+  cwd: ""
+  extra_args: []
+
+checkpoint:
+  root: checkpoints
+  latest_name: latest.json
+
+logging:
+  log_file: outputs/train.log
+  metrics_file: outputs/metrics.jsonl
+  state_file: outputs/training_state.json
+  events_file: outputs/events.jsonl

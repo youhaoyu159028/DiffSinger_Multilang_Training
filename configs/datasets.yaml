@@ -1,0 +1,16 @@
+voicebanks:
+  teto:
+    roots: []
+    type: teto
+    languages: [ja]
+  adachi_rei:
+    roots: []
+    type: adachi_rei
+    languages: [ja]
+
+ignored_markers:
+  - _assets
+  - cache
+  - samples
+  - sample
+  - 利用規約等

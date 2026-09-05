@@ -1,0 +1,8 @@
+runners:
+  kaggle:
+    kernel_dir: kaggle
+    machine_shape: T4
+    enable_gpu: true
+    enable_internet: true
+  local:
+    machine_shape: local

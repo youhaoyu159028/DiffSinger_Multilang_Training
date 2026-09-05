@@ -1,0 +1,11 @@
+{
+  "id": "youhaoyu159028/diffsinger-multilang-training",
+  "title": "DiffSinger Multilingual Training",
+  "code_file": "train_kaggle.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "machine_shape": "T4"
+}

@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "diffsinger-multilang-training"
+version = "0.2.0"
+description = "Resumable multilingual DiffSinger training controller and UTAU dataset pipeline"
+requires-python = ">=3.10"
+dependencies = ["PyYAML>=6.0", "numpy>=1.26", "soundfile>=0.12", "onnxruntime>=1.18"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

@@ -1,0 +1,10 @@
+models:
+  cjke:
+    required_files: [phonemes.json, languages.json]
+    languages: [ja, zh, en, ko]
+  multilangs:
+    required_files: []
+    languages: [ja, zh, en, yue]
+  openutau_multilang:
+    required_files: []
+    languages: [ja, zh, en, yue]
